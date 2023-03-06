@@ -8,6 +8,8 @@ class Human : public Player
 	Human(std::string pname);
 	char makeMove();
 	std::string getName();
+	char move;
+	std::string name;
 };
 
 #endif
