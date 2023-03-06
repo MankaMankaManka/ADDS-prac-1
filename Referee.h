@@ -1,5 +1,6 @@
 #include <iostream>
-
+#ifndef REFEREE_H
+#define REFEREE_H
 class Referee
 {
 	public:
@@ -8,3 +9,5 @@ class Referee
 	char m1;
 	char m2;
 };
+
+#endif

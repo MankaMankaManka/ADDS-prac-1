@@ -1,4 +1,6 @@
 #include <iostream>
+#ifndef HUMAN_H
+#define HUMAN_H
 class Human : public Player
 {
 	public:
@@ -7,3 +9,5 @@ class Human : public Player
 	char makeMove();
 	std::string getName();
 };
+
+#endif
